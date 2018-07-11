@@ -65,4 +65,49 @@
         #465298 10px,
         #465298 20px
     );
+/*=======================
+    Home page style
+    Author: Frank Tran
+* =======================*/
+
+$bg-color:rgb(226, 213, 194);
+
+
+body{
+    background-color: $bg-color;
+    box-sizing: border-box;
+}
+
+main{
+    padding:2%;
+}
+.notice{
+    background-color:rgb(17, 18, 75);
+    color:white;
+
+    border:dotted 1px white;
+    padding:20px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    p{
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+}
+.notice:before{
+    content: "NOTICE:";
+}
+
+.intro{
+    border-right: dotted 2px black;
+}
+a{
+    font-weight:bold;
+    color:brown;
+}
+
+@media screen and (max-width:575px){
+    .intro{
+        border-right:none;
+    }
 }

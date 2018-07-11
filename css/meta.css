@@ -1,0 +1,28 @@
+/*
+    Author: Frank Tran
+*/
+/* Variables */
+body {
+  background-color: #e2d5c2;
+}
+
+header {
+  background-image: url(../images/bg-header.jpg);
+  color: gold;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
