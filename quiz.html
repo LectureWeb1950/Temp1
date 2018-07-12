@@ -1,20 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>HTML5 Progress Bar</title>
-    <style>
-        .wrapper {
-            width: 60%;
-            margin: 0 auto;
-            text-align: center;
-        }
-    </style>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BCIT :: COMP 1950 :: Web Development and Design 2 :: Quiz</title>
+    <meta name="Quiz Page of COMP 1950" content="List all the quizzes and its answer of BCIT COMP 1950.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="apple-touch-icon" href="icon.png">-->
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="./css/w3.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="css/print_styles.css" media="print" />
+    <link rel="stylesheet" href="css/media-queries.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
+
 <body>
-    <div class="wrapper">
-        <h1>HTML5 progress bar</h1>
-        <progress class="custom-progress" max="100" value="40"></progress>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Quiz 1</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 2</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 3</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 4</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 5</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 6</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 7</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 8</a>
+        <a href="#" class="w3-bar-item w3-button">Quiz 9</a>
     </div>
+    <div id="main">
+
+        <div class="w3-teal">
+            <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+                <h1>COMP 1950 :: Quiz 01 :: Work with Browser Tools</h1>
+                <span>Submission</span> |
+                <span>Answer</span>
+            </div>
+        </div>
+        <div class="scp-quizzes-main">
+            <div class="scp-quizzes-data">
+                <h3>Briefly describe the purpose of a CSS reset.
+                    <span>2 marks</span>
+                </h3>
+                <br/>
+                <textarea></textarea>
+            </div>
+            <div class="scp-quizzes-data">
+                <h3>Describe one advantage of using sprites.
+                    <span>2 marks</span>
+                </h3>
+                <br/>
+                <textarea></textarea>
+            </div>
+            <div class="scp-quizzes-data">
+                <h3>Search engines and screen readers ignore background images.
+                    <span>1 marks</span>
+                </h3>
+                <br/>
+                <input type="radio" id="Fastlearning" name="question1">
+                <label for="Fastlearning">1. True</label>
+                <br/>
+                <input type="radio" name="question1">
+                <label>2. False</label>
+                <br/>
+            </div>
+            <div class="scp-quizzes-data">
+                <h3>The CSS property overflow stops non-floated content from positioning beside a float.
+                    <span>1 marks</span>
+                </h3>
+                <br/>
+                <input type="radio" id="Fastlearning" name="question1">
+                <label for="Fastlearning">1. True</label>
+                <br/>
+                <input type="radio" name="question1">
+                <label>2. False</label>
+                <br/>
+            </div>
+            <div class="scp-quizzes-data">
+                <h3>The CSS layout model that aligns content along a linear line is known as
+                    <span>1 marks</span>
+                </h3>
+                <br/>
+                <input type="radio" id="Fastlearning" name="question1">
+                <label for="Fastlearning">1. Flexbox</label>
+                <br/>
+                <input type="radio" name="question1">
+                <label>2. Grid Layout</label>
+                <br/>
+            </div>
+            <div class="scp-quizzes-data">
+                <h3>Write the CSS rule that will make #wrapper a Flex container
+                    <span>1 marks</span>
+                </h3>
+                <br/>
+                <textarea></textarea>
+            </div>
+            <br/>
+            <div class="scp-quizzes-data">
+                <h3>Write the CSS rule that will make #wrapper a Grid container
+                    <span>1 marks</span>
+                </h3>
+                <br/>
+                <textarea></textarea>
+            </div>
+            <br/>
+            <div id="wrapper">
+                <button class="myButton">Last Page</button>
+                <button class="myButton">Submit</button>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 footer-about wow fadeInUp">
+                            <h3>About COMP1950</h3>
+                            <p>
+                                There is a focus on responsive design and mobile presentation through the use of Media Queries. Adding behavior to web sites
+                                using JavaScript frameworks such as jQuery is introduced. </p>
+                            <p>&copy;
+                                <a href="https://www.bcit.ca/study/courses/comp1950#details">Course Details</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 offset-md-1 footer-contact wow fadeInDown">
+                            <h3>Contact</h3>
+                            <p>
+                                <i class="fas fa-address-card"></i>Jeff Parker</p>
+                            <p>
+                                <i class="fas fa-envelope"></i> Email:
+                                <a href="mailto:hello@domain.com">jeffrey_parker@bcit.ca</a>
+                                <p>
+                                    <i class="fas fa-address-card"></i>Michael Whyte</p>
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i> Email:
+                                <a href="mailto:hello@domain.com">michael_whyte@bcit.ca</a>
+                        </div>
+                        <div class="col-md-4 footer-links wow fadeInUp">
+                            <div class="row">
+                                <div class="col">
+                                    <h3>Links</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>
+                                        <a class="scroll-link" href="#top-content">Meta Site</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Prototype Site</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Lectures</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Quizzes</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <a href="https://www.bcit.ca/">BCIT</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://learn.bcit.ca/d2l/home">BCIT D2L</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://my.bcit.ca/cp/home/displaylogin">myBCIT</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col footer-social">
+                            <a href="https://www.bcit.ca/its/web/feedback.shtml?from=https%3A%2F%2Fwww.bcit.ca%2Fstudy%2Fcourses%2Fcomp1950">
+                                Feedback </a>
+                            <a href="https://www.bcit.ca/privacy/">
+                                Privacy </a>
+                            <a href="https://www.bcit.ca/copyright/">
+                                Copyright </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="scripts/myJquery.js"></script>
+
 </body>
+
 </html>
