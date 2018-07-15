@@ -1,13 +1,18 @@
+@page  
+{ 
+    margin-top: 50px;  
+} 
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #888;
-    text-align: center;
+    text-align: left;
 }
 
 footer{
-	position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -16,6 +21,10 @@ footer{
 
 strong {
     font-weight: 600;
+}
+
+textarea{
+    page-break-inside: avoid;
 }
 
 a {
@@ -47,13 +56,11 @@ h3 {
 }
 
 ::-moz-selection {
-    background: #7762ac;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #7762ac;
     color: #fff;
     text-shadow: none;
 }
@@ -122,4 +129,8 @@ h3 {
 
 a[href^="http"]:after{
     content: " (URL: " attr(href) ")    ";
+}
+
+#mySidebar{
+    display: none;
 }
