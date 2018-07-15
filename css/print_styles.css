@@ -1,9 +1,15 @@
+@page  
+{ 
+    margin-top: 50px;  
+} 
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #888;
-    text-align: center;
+    text-align: left;
 }
 
 footer{
@@ -15,6 +21,10 @@ footer{
 
 strong {
     font-weight: 600;
+}
+
+textarea{
+    page-break-inside: avoid;
 }
 
 a {

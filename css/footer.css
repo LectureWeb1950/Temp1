@@ -214,15 +214,15 @@ footer strong {
 }
 
 footer a {
-  color: #856dc0;
-  border-bottom: 1px dashed #856dc0;
+  color: #2d06dd;
+  border-bottom: 1px dashed #2d06dd;
   text-decoration: none;
   transition: all .3s;
 }
 
 footer a:hover,
 footer a:focus {
-  color: #856dc0;
+  color: #2d06dd;
   border: 0;
   text-decoration: none;
 }
@@ -237,13 +237,13 @@ footer .medium-paragraph {
 }
 
 footer ::-moz-selection {
-  background: #7762ac;
+  background: #2d06dd;
   color: #fff;
   text-shadow: none;
 }
 
 footer ::selection {
-  background: #7762ac;
+  background: #2d06dd;
   color: #fff;
   text-shadow: none;
 }
