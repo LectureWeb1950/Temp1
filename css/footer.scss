@@ -8,6 +8,7 @@ footer {
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, .03);
     border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin-top: 20px;
 
     .footer-top {
         padding: 60px 0 40px 0;
@@ -192,22 +193,6 @@ footer {
         color: #856dc0;
         border: 0;
         text-decoration: none;
-    }
-    h1,
-    h2 {
-        margin-top: 10px;
-        font-size: 38px;
-        font-weight: 300;
-        color: #555;
-        line-height: 50px;
-        font-style: italic;
-    }
-    h3 {
-        font-size: 22px;
-        font-weight: 300;
-        color: #555;
-        line-height: 30px;
-        font-style: italic;
     }
     img {
         max-width: 100%;
