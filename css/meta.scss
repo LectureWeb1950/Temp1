@@ -31,3 +31,41 @@ h2{
     font-size:1.5em;
     margin-top:10px;
 }
+h3{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top:5px;
+}
+section>section{
+    margin-left:20px;
+    ul{
+        margin-left:30px;
+    }
+}
+section>ul{
+    margin-left:30px;
+    li{
+        margin:5px 0px 5px 0px;
+    }
+}
+footer{
+    margin-top: 20px;
+    .col-sm{
+        text-align: center;
+        margin-bottom:5px;
+        margin-top:5px;
+        a{
+            font-weight: bold;
+            color:gray;
+            &:link{
+                color:gray;
+            }
+            &:hover{
+                color:brown;
+                text-decoration: none;
+                font-size: 1.2em;
+            }
+            transition: all 0.3s ease;
+        }
+    }
+}

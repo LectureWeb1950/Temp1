@@ -78,30 +78,19 @@ main {
   border-right: dotted 2px black;
 }
 
-a {
+main a {
   font-weight: bold;
   color: brown;
-}
-
-.max-width {
-  width: 100%;
-  overflow: hidden;
-}
-
-.font-setting {
-  float: right;
-  display: flex;
-  flex-direction: row;
-}
-
-#font-minus, #font-normal, #font-plus {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
 }
 
 @media screen and (max-width: 575px) {
   .intro {
     border-right: none;
+  }
+}
+
+@media print {
+  main a {
+    color: black;
   }
 }
