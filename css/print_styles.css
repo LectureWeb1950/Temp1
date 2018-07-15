@@ -7,7 +7,6 @@ body {
 }
 
 footer{
-	position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -47,13 +46,11 @@ h3 {
 }
 
 ::-moz-selection {
-    background: #7762ac;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #7762ac;
     color: #fff;
     text-shadow: none;
 }
@@ -122,4 +119,8 @@ h3 {
 
 a[href^="http"]:after{
     content: " (URL: " attr(href) ")    ";
+}
+
+#mySidebar{
+    display: none;
 }

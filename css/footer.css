@@ -8,6 +8,7 @@ footer {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 20px;
 }
 
 footer .footer-top {
@@ -224,24 +225,6 @@ footer a:focus {
   color: #856dc0;
   border: 0;
   text-decoration: none;
-}
-
-footer h1,
-footer h2 {
-  margin-top: 10px;
-  font-size: 38px;
-  font-weight: 300;
-  color: #555;
-  line-height: 50px;
-  font-style: italic;
-}
-
-footer h3 {
-  font-size: 22px;
-  font-weight: 300;
-  color: #555;
-  line-height: 30px;
-  font-style: italic;
 }
 
 footer img {

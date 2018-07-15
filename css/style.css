@@ -1,3 +1,11 @@
+header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    color:black;
+}
+
 .scp-quizzes-main {
     /*width: 100%;*/
     background-color: rgb(206, 194, 194);
@@ -115,14 +123,14 @@ textarea {
 
 textarea:focus {
     border-color: black;
-    outline:0px !important;
-
+    outline: 0px !important;
 }
 
 span {
     display: inline;
     font-size: 16px;
     margin-left: 10px;
+    color: black;
 }
 
 strong {
@@ -133,15 +141,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #888;
+    color: black;
     line-height: 30px;
-}
-
-footer{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
 }
 
 strong {
@@ -169,7 +170,6 @@ h2 {
     font-weight: 300;
     color: #555;
     line-height: 50px;
-    font-style: italic;
 }
 
 h3 {
@@ -199,66 +199,4 @@ img {
     background: #7762ac;
     color: #fff;
     text-shadow: none;
-}
-
-/***** Footer *****/
-
-.footer-top {
-    padding: 60px 0 40px 0;
-    text-align: left;
-}
-
-.footer-top h3 {
-    padding-bottom: 10px;
-}
-
-.footer-contact p {
-    word-wrap: break-word;
-}
-
-.footer-contact i {
-    padding-right: 10px;
-    font-size: 18px;
-    color: #ddd;
-}
-
-.footer-contact p a {
-    border-bottom: 1px dashed #ccc;
-}
-
-.footer-contact p a:hover,
-.footer-contact p a:focus {
-    border-bottom: 1px dashed #856dc0;
-}
-
-.footer-links a {
-    color: #888;
-    border: 0;
-}
-
-.footer-links a:hover,
-.footer-links a:focus {
-    color: #555;
-    margin-left: 3px;
-}
-
-.footer-bottom {
-    padding: 0 0 60px 0;
-}
-
-.footer-social a {
-    margin: 0 10px;
-    color: #bbb;
-    border: 0;
-}
-
-.footer-social a:hover,
-.footer-social a:focus {
-    color: #856dc0;
-    border: 0;
-}
-
-.footer-social i {
-    font-size: 24px;
-    vertical-align: middle;
 }
