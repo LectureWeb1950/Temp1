@@ -6,6 +6,7 @@
     overflow: auto;
     margin-left: 10%;
     margin-top: 0px;
+    border: 1px solid black; 
 }
 #mainwrapper header {
     /*Header */
@@ -14,6 +15,9 @@
     font-family: montserrat, sans-serif;
     font-style: normal;
     font-weight: 400;
+    color: white;
+    margin: 0px;
+    border: 1px solid black; 
 }
 #mainwrapper header nav {
     /*Nav bar containing links in header */
@@ -27,7 +31,7 @@
     float: left;
     color: white;
     margin-right: inherit; 
-    max-width: 1445px; 
+    border: 1px solid black; 
 }
 header nav a {
     /* Links in header */
@@ -63,6 +67,7 @@ header nav a {
     font-style: normal;
     font-weight: 200;
     text-align: justify;
+    border: 1px solid black; 
 }
 #content #mainContent #authorInfo {
     /* Author info section */
@@ -72,6 +77,7 @@ header nav a {
     color: rgba(255,255,255,1.00);
     padding-left: 2%;
     padding-top: 11px;
+    border: 1px solid black; 
 }
 #content #mainContent #authorInfo p {
     color: #222020;
@@ -79,6 +85,7 @@ header nav a {
     padding-top: 0px;
     padding-bottom: 11px;
     padding-right: 2%;
+    border: 1px solid black; 
 }
 footer article {
     /* Footer articles */
@@ -91,6 +98,7 @@ footer article {
     font-style: normal;
     font-weight: 200;
     color: rgba(146,146,146,1.00);
+    border: 1px solid black; 
 }
 footer article h3 {
     /* Footer article titles */
@@ -98,6 +106,7 @@ footer article h3 {
     font-family: montserrat, sans-serif;
     font-style: normal;
     font-weight: 400;
+    border: 1px solid black; 
 }
 #mainContent {
     padding-left: 2%;
@@ -117,8 +126,6 @@ footer article h3 {
     margin-top: 150px;
     padding-top: 32px;
     border: 1px solid black; 
-    border-left: 0px; 
-    
 }
 
 #content #sidebar input {
@@ -234,7 +241,6 @@ footer {
 #mainwrapper header {
     /* Header */
     width: 100%;
-    background-color: darkgrey; 
 }
 }
 
@@ -243,7 +249,7 @@ footer {
 #mainwrapper header nav {
     /*navigation links in header */
     text-align: center;
-    background-color: darkgray;
+    background-color: rgba(255,255,255,1.00);
     width: 98%;
 }
 #content #sidebar #adimage {
@@ -284,4 +290,3 @@ footer {
     width: 96%;
 }
 }
-
