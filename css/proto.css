@@ -41,6 +41,8 @@
 .custom-progress::-ms-fill {
   border-radius: 18px;
   background: repeating-linear-gradient(135deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
 /*=======================
     Home page style
     Author: Frank Tran
