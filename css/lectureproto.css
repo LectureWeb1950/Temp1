@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("css/eric_meyer_reset.css");
 #mainwrapper {
     /* Container of all content */
     width: 80%;
@@ -113,6 +112,7 @@ footer article h3 {
     width: 71%;
     float: left;
     padding-right: 2%;
+    margin-top: 50px;
     padding-top: 41px;
     border: 1px solid black; 
 }
