@@ -1,249 +1,250 @@
 footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  border-radius: 5px;
-  padding: .75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 footer .footer-top {
-  padding: 60px 0 40px 0;
-  text-align: left;
+    padding: 60px 0 40px 0;
+    text-align: left;
 }
 
 footer .footer-top h3 {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 footer .footer-contact p {
-  word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 footer .footer-contact i {
-  padding-right: 10px;
-  font-size: 18px;
-  color: #ddd;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #ddd;
 }
 
 footer .footer-contact p a {
-  border-bottom: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
 }
 
 footer .footer-contact p a:hover,
 footer .footer-contact p a:focus {
-  border-bottom: 1px dashed #856dc0;
+    border-bottom: 1px dashed #856dc0;
 }
 
 footer .footer-links a {
-  color: #888;
-  border: 0;
+    color: #888;
+    border: 0;
 }
 
 footer .footer-links a:hover,
 footer .footer-links a:focus {
-  color: #555;
-  margin-left: 3px;
+    color: #555;
+    margin-left: 3px;
 }
 
 footer .footer-bottom {
-  padding: 0 0 60px 0;
+    padding: 0 0 60px 0;
 }
 
 footer .footer-social a {
-  margin: 0 10px;
-  color: #bbb;
-  border: 0;
+    margin: 0 10px;
+    color: #bbb;
+    border: 0;
 }
 
 footer .footer-social a:hover,
 footer .footer-social a:focus {
-  color: #856dc0;
-  border: 0;
+    color: #856dc0;
+    border: 0;
 }
 
 footer .footer-social i {
-  font-size: 24px;
-  vertical-align: middle;
+    font-size: 24px;
+    vertical-align: middle;
 }
 
 footer .scp-quizzes-main {
-  /*width: 100%;*/
-  background-color: #cec2c2;
-  margin-left: 60px;
-  margin-right: 60px;
-  /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    /*width: 100%;*/
+    background-color: #cec2c2;
+    margin-left: 60px;
+    margin-right: 60px;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
 }
 
 footer .scp-quizzes-data {
-  box-shadow: 0px 1px 3px -1px #DCDCDC;
-  padding: 10px;
-  margin-top: 15px;
+    box-shadow: 0px 1px 3px -1px #DCDCDC;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 footer pre {
-  border: 2px solid #f5f5f5;
-  padding: 10px;
-  overflow-x: scroll;
+    border: 2px solid #f5f5f5;
+    padding: 10px;
+    overflow-x: scroll;
 }
 
 footer input[type=radio] {
-  display: none;
+    display: none;
 }
 
-footer input[type=radio] + label {
-  display: inline-block;
-  width: 95%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  margin-bottom: 10px;
-  cursor: pointer;
+footer input[type=radio]+label {
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
-footer input[type=radio] + label:hover {
-  border: 1px solid #000000;
+footer input[type=radio]+label:hover {
+    border: 1px solid #000000;
 }
 
-footer input[type=radio]:checked + label {
-  background-image: none;
-  background-color: #0C0;
-  color: #fff;
-  border: 1px solid #0C0 !important;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+footer input[type=radio]:checked+label {
+    background-image: none;
+    background-color: #0C0;
+    color: #fff;
+    border: 1px solid #0C0 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 footer .worngans {
-  background-color: #F36;
-  color: #fff;
-  border: 1px solid #F36 !important;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+    background-color: #F36;
+    color: #fff;
+    border: 1px solid #F36 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 footer button {
-  background-color: #4CAF50;
-  /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer .myButton {
-  background-color: white;
-  color: black;
-  border: 2px solid #f44336;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer .myButton:hover {
-  background-color: #f44336;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: #f44336;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer #wrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer textarea {
-  display: block;
-  resize: vertical;
-  overflow: auto;
-  width: calc(90% - 20px);
-  height: 120px;
-  border: 1px solid whitesmoke;
-  padding: 5px;
-  font-family: Tahoma, sans-serif;
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
+    display: block;
+    resize: vertical;
+    overflow: auto;
+    width: calc(90% - 20px);
+    height: 120px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 
 footer textarea:focus {
-  border-color: black;
-  outline: 0px !important;
+    border-color: black;
+    outline: 0px !important;
 }
 
 footer span {
-  display: inline;
-  font-size: 16px;
-  margin-left: 10px;
+    display: inline;
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 footer strong {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 footer body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  color: #888;
-  line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    line-height: 30px;
 }
 
 footer strong {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 footer a {
-  color: #856dc0;
-  border-bottom: 1px dashed #856dc0;
-  text-decoration: none;
-  transition: all .3s;
+    color: #856dc0;
+    border-bottom: 1px dashed #856dc0;
+    text-decoration: none;
+    transition: all .3s;
 }
 
 footer a:hover,
 footer a:focus {
-  color: #856dc0;
-  border: 0;
-  text-decoration: none;
+    color: #856dc0;
+    border: 0;
+    text-decoration: none;
 }
 
 footer img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 footer .medium-paragraph {
-  font-size: 17px;
-  line-height: 32px;
+    font-size: 17px;
+    line-height: 32px;
 }
 
 footer ::-moz-selection {
-  background: #7762ac;
-  color: #fff;
-  text-shadow: none;
+    background: #7762ac;
+    color: #fff;
+    text-shadow: none;
 }
 
 footer ::selection {
-  background: #7762ac;
-  color: #fff;
-  text-shadow: none;
+    background: #7762ac;
+    color: #fff;
+    text-shadow: none;
 }

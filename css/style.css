@@ -124,9 +124,8 @@ strong {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    font-weight: 400;
     color: black;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 strong {
@@ -167,10 +166,6 @@ img {
     max-width: 100%;
 }
 
-.medium-paragraph {
-    font-size: 17px;
-    line-height: 32px;
-}
 
 /*::-moz-selection {
     background: #17099b;
