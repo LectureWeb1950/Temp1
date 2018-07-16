@@ -26,3 +26,16 @@ for (var i = 0, td; i < tables.length; i++) {
     tables[i].insertBefore(order, tables[i].firstChild);
 }
 
+function change(obj) {
+    var tr = obj;
+    var tbl = tr;
+    var inputs = tbl.getElementsByTagName("label");
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].style.backgroundColor = 'blue';
+        tr.style.backgroundColor = (obj.checked) ? 'red' : 'blue';
+        
+    }
+    // if (tr.style.backgroundColor == 'blue') {
+    //     tr.style.backgroundColor = 'transparency';
+    // }
+}
